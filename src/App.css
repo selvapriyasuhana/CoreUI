@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Custom styles for the navigation links */
+.nav-link {
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styles for the active navigation link */
+.nav-link.active {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Styles for the main card */
+.CCard {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Styles for the card header */
+.CCardHeader {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the card body */
+.CCardBody {
+  padding: 20px;
+}
+
+/* Styles for the card title */
+.CCardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Styles for the container */
+.CContainer {
+  margin-top: 50px;
+}
+
+/* Styles for the row */
+.CRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* Styles for the column */
+.CCol {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+/* Styles for the active NavLink */
+.CNavLink.active {
+  color: #fff;
+}
+
+/* Styles for the Switch component */
+.Switch {
+  margin-top: 20px;
+}
